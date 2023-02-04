@@ -13,3 +13,10 @@ E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Gr
 E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\obj\Debug\net6.0\PROG8170_Section1_Assignment2_Group6.pdb
 E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\obj\Debug\net6.0\PROG8170_Section1_Assignment2_Group6.genruntimeconfig.cache
 E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\obj\Debug\net6.0\ref\PROG8170_Section1_Assignment2_Group6.dll
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\bin\Debug\net6.0\nunit.engine.netstandard.dll
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\bin\Debug\net6.0\Microsoft.DotNet.InternalAbstractions.dll
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\bin\Debug\net6.0\nunit.framework.dll
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\obj\Debug\net6.0\PROG8170_Section1_Assignment2_Group6.csproj.CopyComplete
