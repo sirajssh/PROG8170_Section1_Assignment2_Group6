@@ -1,0 +1,15 @@
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\bin\Debug\net6.0\PROG8170_Section1_Assignment2_Group6.exe
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\bin\Debug\net6.0\PROG8170_Section1_Assignment2_Group6.deps.json
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\bin\Debug\net6.0\PROG8170_Section1_Assignment2_Group6.runtimeconfig.json
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\bin\Debug\net6.0\PROG8170_Section1_Assignment2_Group6.dll
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\bin\Debug\net6.0\PROG8170_Section1_Assignment2_Group6.pdb
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\obj\Debug\net6.0\PROG8170_Section1_Assignment2_Group6.csproj.AssemblyReference.cache
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\obj\Debug\net6.0\PROG8170_Section1_Assignment2_Group6.GeneratedMSBuildEditorConfig.editorconfig
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\obj\Debug\net6.0\PROG8170_Section1_Assignment2_Group6.AssemblyInfoInputs.cache
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\obj\Debug\net6.0\PROG8170_Section1_Assignment2_Group6.AssemblyInfo.cs
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\obj\Debug\net6.0\PROG8170_Section1_Assignment2_Group6.csproj.CoreCompileInputs.cache
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\obj\Debug\net6.0\PROG8170_Section1_Assignment2_Group6.dll
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\obj\Debug\net6.0\refint\PROG8170_Section1_Assignment2_Group6.dll
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\obj\Debug\net6.0\PROG8170_Section1_Assignment2_Group6.pdb
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\obj\Debug\net6.0\PROG8170_Section1_Assignment2_Group6.genruntimeconfig.cache
+E:\Siraj Projects\VisualStudio2022\source\repos\PROG8170_Section1_Assignment2_Group6\obj\Debug\net6.0\ref\PROG8170_Section1_Assignment2_Group6.dll

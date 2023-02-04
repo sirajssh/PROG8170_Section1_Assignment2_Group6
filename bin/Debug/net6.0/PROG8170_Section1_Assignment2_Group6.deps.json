@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PROG8170_Section1_Assignment2_Group6/1.0.0": {
+        "runtime": {
+          "PROG8170_Section1_Assignment2_Group6.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PROG8170_Section1_Assignment2_Group6/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
