@@ -11,23 +11,39 @@ File: Program.cs
 
 using PROG8170_Section1_Assignment2_Group6;
 
-class Program
-{
-    static void Main(string[] args)
-    {
         Circle c = new Circle();
         int option = 0;
-
+        bool GetCircleValue = false;
+        bool isvalidinput = false;
+        bool changeCircleValue = false;
+        while (isvalidinput == false)
+        {
+            Console.WriteLine("Please enter circle radius");
+            var GetCircleVal = Console.ReadLine();
+            GetCircleValue = int.TryParse(GetCircleVal, out int result);
+            if (GetCircleValue != false && Convert.ToInt32(GetCircleVal) > 0)
+            {
+                c.SetRadius(Convert.ToInt32(GetCircleVal));
+                Console.WriteLine("The circle radius set");
+                isvalidinput = true;
+            }
+            else
+            {
+                c.SetRadius(1);
+                return;
+            }
+        }
         while (option != 5)
         {
-            Console.WriteLine("\n   * Circle Menu *\n");
+
+
+            Console.Write("-----------------------------------------\n");
             Console.WriteLine("1. Get Circle Radius");
             Console.WriteLine("2. Change Circle Radius");
             Console.WriteLine("3. Get Circle Circumference");
             Console.WriteLine("4. Get Circle Area");
             Console.WriteLine("5. Exit\n");
-
-            Console.Write("Enter your choice: ");
+            Console.Write("-----------------------------------------");
             try
             {
                 option = int.Parse(Console.ReadLine());
@@ -35,18 +51,19 @@ class Program
                 switch (option)
                 {
                     case 1:
-                        Console.WriteLine("\nThe circle radius is: " + c.GetRadius() + "\n");
+                        Console.WriteLine(c.GetRadius());
                         break;
                     case 2:
                         Console.WriteLine("\nEnter the new radius: ");
-                        int newRadius = int.Parse(Console.ReadLine());
-                        if (newRadius < 1)
+                        var setCircleValue = Console.ReadLine();
+                        changeCircleValue = int.TryParse(setCircleValue, out int result);
+                        if (changeCircleValue == false && Convert.ToInt32(setCircleValue) < 1)
                         {
                             Console.WriteLine("\nRadius must be greater than 0");
                         }
                         else
                         {
-                            c.SetRadius(newRadius);
+                            c.SetRadius(Convert.ToInt32(setCircleValue));
                         }
                         break;
                     case 3:
@@ -63,10 +80,9 @@ class Program
                         break;
                 }
             }
-            catch (FormatException)
+            catch (Exception ex)
             {
-                Console.WriteLine("\nInvalid input. Please enter a number...!");
+                Console.WriteLine(ex.Message);
             }
         }
-    }
-}
+   

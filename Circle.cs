@@ -14,6 +14,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NUnit.Framework;
 
 namespace PROG8170_Section1_Assignment2_Group6
 {
@@ -33,15 +34,17 @@ namespace PROG8170_Section1_Assignment2_Group6
 
             public int GetRadius()
             {
-                return radius;
+               return radius;
+
             }
 
-            public void SetRadius(int radius)
+            public int SetRadius(int radius)
             {
                 if (radius >= 1)
                 {
-                    this.radius = radius;
+                   return this.radius = radius;
                 }
+            return 1;
             }
 
             public double GetCircumference()
