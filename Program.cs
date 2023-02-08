@@ -16,7 +16,9 @@ using PROG8170_Section1_Assignment2_Group6;
         bool GetCircleValue = false;
         bool isvalidinput = false;
         bool changeCircleValue = false;
-        while (isvalidinput == false)
+try
+{
+    while (isvalidinput == false)
         {
             Console.WriteLine("Please enter circle radius");
             var GetCircleVal = Console.ReadLine();
@@ -24,7 +26,6 @@ using PROG8170_Section1_Assignment2_Group6;
             if (GetCircleValue != false && Convert.ToInt32(GetCircleVal) > 0)
             {
                 c.SetRadius(Convert.ToInt32(GetCircleVal));
-                Console.WriteLine("The circle radius set");
                 isvalidinput = true;
             }
             else
@@ -44,8 +45,7 @@ using PROG8170_Section1_Assignment2_Group6;
             Console.WriteLine("4. Get Circle Area");
             Console.WriteLine("5. Exit\n");
             Console.Write("-----------------------------------------");
-            try
-            {
+            
                 option = int.Parse(Console.ReadLine());
 
                 switch (option)
@@ -80,9 +80,9 @@ using PROG8170_Section1_Assignment2_Group6;
                         break;
                 }
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
+            
         }
-   
+catch (Exception ex)
+{
+    Console.WriteLine(ex.Message);
+}

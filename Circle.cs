@@ -29,13 +29,15 @@ namespace PROG8170_Section1_Assignment2_Group6
 
             public Circle(int radius)
             {
+            if (radius > 0)
+            {
                 this.radius = radius;
+            }
             }
 
             public int GetRadius()
             {
                return radius;
-
             }
 
             public int SetRadius(int radius)
