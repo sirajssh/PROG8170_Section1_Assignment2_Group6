@@ -16,6 +16,7 @@ using PROG8170_Section1_Assignment2_Group6;
         bool GetCircleValue = false;
         bool isvalidinput = false;
         bool changeCircleValue = false;
+        bool OptionValue = false;
 try
 {
     while (isvalidinput == false)
@@ -44,11 +45,15 @@ try
             Console.WriteLine("3. Get Circle Circumference");
             Console.WriteLine("4. Get Circle Area");
             Console.WriteLine("5. Exit\n");
-            Console.Write("-----------------------------------------");
-            
-                option = int.Parse(Console.ReadLine());
+            Console.Write("-----------------------------------------\n");
+            Console.WriteLine("Enter your choice");
 
-                switch (option)
+            var MenuOption = Console.ReadLine();
+            
+            OptionValue = int.TryParse(MenuOption, out int result1);
+            if(OptionValue == true) {
+            option = int.Parse(MenuOption);
+            switch (option)
                 {
                     case 1:
                         Console.WriteLine(c.GetRadius());
@@ -79,7 +84,8 @@ try
                         Console.WriteLine("\nInvalid choice, try again...!\n");
                         break;
                 }
-            }
+        }
+    }
             
         }
 catch (Exception ex)
